@@ -1,0 +1,36 @@
+header, section, footer, aside, nav, article, hgroup{ /* Se hace alusión a las etiquetas del HTML */
+    border: 1px solid black;
+    /*display: block;*/
+}
+
+body{
+    text-align: center;
+    padding: 0%;
+}
+
+.css_body{  /* Se hace alusión a los ID y a las clases del HTLM */
+    border: black;
+    background-attachment: grey;
+}
+
+*{ /* Se hace alusión a TODO el HTML */
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 1.2%;
+}
+
+.cabecera{
+    font-size: 250%;
+    font-weight: bold;
+    /*padding: 0%;*/
+    /* color-hex.com */ /* Página para hallar los propios colores que deseamos */
+    /*background-color: crimson;*/
+    background: #275B4B;
+}
+
+.css_vav li{ /* Hace alusión a las etiquetas de una clase o ID */
+    font-size: 40px;
+    list-style: none;
+    font-weight: bold;
+    display: inline-block;
+}
